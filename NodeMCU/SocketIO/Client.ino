@@ -5,11 +5,11 @@
 #include <WebSocketsClient.h>
 // **************************************
 
-const char* ssid = "Galaxy Note9";
-const char* passwd = "Awa2a0w0a1";
+const char* ssid = "yourSSID"; 
+const char* passwd = "yourPASSWD"; 
  
-const char* host = "https://iot-master.dev";
-const int port = 443;
+const char* host = "HOSTNAME"; // "192.168.5.127" or "https://example.domain" or even "http://example.domain"
+const int port = 443; // 80 for http and 443 for https
 
 SocketIOclient socketIO;
 
